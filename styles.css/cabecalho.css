@@ -1,0 +1,66 @@
+.cabecalho {
+    background: -23% 50%/92vw 76vw url(../images/Forma\ 1.svg);
+    background-repeat: no-repeat;
+    padding-bottom: 5em;
+}
+
+.cabecalho__nav {
+    display: flex;
+    align-items: center;
+    padding: 2em 0em 5em 2em;
+    gap: 4em;
+}
+
+.logo-dsktp {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .cabecalho {
+        background: -6% 36%/89vw 74vw url(../images/Forma\ 1.svg);
+        background-repeat: no-repeat;
+        padding-bottom: 12em;
+    }
+    
+
+    .logo-dsktp {
+        display: block;
+        width: 128px;
+    }
+
+    .cabecalho-logo {
+        display: flex;
+        align-items: end;
+        padding: 4em 1em 11em 6em;
+    }
+
+    .cabecalho__nav {
+        padding: 0 2em;
+        gap: 2em;
+
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .cabecalho {
+        background: -4% 60%/88vw 88vw url(../images/Forma\ 1.svg);
+        background-repeat: no-repeat;
+        padding-bottom: 20em;
+    }
+    
+}
+
+@media screen and (min-width: 1440px) {
+    .cabecalho {
+        background: 0% 4%/45vw 38vw url(../images/Forma\ 1.svg);
+        background-repeat: no-repeat;
+        padding-bottom: 12em;
+    }
+
+    .cabecalho-logo {
+        display: flex;
+        align-items: end;
+        padding: 5em 1em 11em 8em;
+    }
+    
+}

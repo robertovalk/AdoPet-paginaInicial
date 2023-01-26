@@ -1,0 +1,123 @@
+body {
+    background-color: var(--cor-de-fundo-inicial);
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0em 3em 0em 3em;
+    background: right 10%/19% 81% no-repeat url(../images/Forma\ 2.svg);
+    
+}
+
+.cp-logo-img {
+    width: 186px;
+    margin-bottom: 1.5em;
+}
+
+
+.cp-texto {
+    text-align: center;
+    color: var(--branco);
+}
+
+.cp-titulo {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 1em;
+}
+
+.cp-subTitulo {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.cp-butoes {
+    display: flex;
+    flex-direction: column;
+    margin: 1.5em 0em 1.5em 0em;
+    gap: 2em;
+}
+
+.cp-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--coral);
+    color: var(--branco);
+    border-radius: 6px;
+    border: 1px solid transparent;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.25) ;
+    padding: 1em 1em 1em 1em;
+    outline: none;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all .5s ease-in;
+}
+
+.cp-btn:hover {
+    background-color: var(--coral-claro);
+}
+
+.cp-img {
+    margin-right: 3em;
+}
+
+@media screen and (min-width: 768px) {
+    .conteudo-principal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0em 3em 0em 3em;
+        background: right 10%/13% 81% no-repeat url(../images/Forma\ 2.svg);
+    }
+    
+    .cp-logo-img {
+        width: 300px;
+    }
+
+    .cp-titulo {
+        font-size: 23px;
+    }
+
+    .cp-subTitulo {
+        font-size: 18px;
+        font-weight: 400;
+        padding: 0 10rem;
+    }
+
+    .cp-btn {
+        font-size: 18px;
+        padding: 1em 5em;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .cp-logo-img {
+        width: 390px;
+    }
+
+    .cp-texto {
+        padding: 0 19em;
+    }
+
+    .cp-titulo {
+        font-size: 28px;
+    }
+
+    .cp-subTitulo {
+        font-size: 18px;
+        
+    }
+
+    .cp-btn {
+        font-size: 21px;
+    }
+
+    .cp-img img {
+        width: 400px;
+    }
+
+}
